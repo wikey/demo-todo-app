@@ -1,0 +1,74 @@
+.welcome {
+    width: 30%;
+    margin: 0 auto;
+
+}
+.container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: green;
+    position: relative;
+}
+#newTodo {
+    width: 30%;
+    margin: 0 auto;
+    background-color: grey;
+}
+.todos {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.itembox {
+    width: 85%;
+    min-height: 1.5em;
+    margin: 5px auto;
+    background-color: grey;
+    position: relative;
+}
+
+
+.itemleft {
+    width: 95%;
+    min-height: 1.5em;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+}
+.undone,
+.check {
+    background-color: red;
+}
+.done,
+.cross {
+    background-color: blue;
+    text-decoration: line-through;
+    color: white;
+}
+.itemright {
+    min-height: 1.5em;
+    width: 5%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.check {
+    background: url("../img/check.png") no-repeat;
+    background-size: contain;
+    z-index: 10;
+}
+.cross {
+    background: blue url("../img/cross-mark.png") no-repeat;
+    background-size: contain;
+    z-index: 10;
+}
+
+
+document {
+    box-sizing: border-box;
+}
